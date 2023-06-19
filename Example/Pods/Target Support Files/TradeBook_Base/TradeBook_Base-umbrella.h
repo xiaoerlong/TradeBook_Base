@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIColor+Extensions.h"
+#import "TestOC.h"
 
 FOUNDATION_EXPORT double TradeBook_BaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char TradeBook_BaseVersionString[];

@@ -14,8 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let str = "aaa"
-        str.test()
+        
+        let ts = TestOC()
+        ts.instanceMethod()
+        UIColor.random()
+        
     }
 
     override func didReceiveMemoryWarning() {

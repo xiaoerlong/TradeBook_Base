@@ -1,15 +1,24 @@
 PODS:
-  - TradeBook_Base (0.1.0)
+  - TradeBook_Base (0.0.1):
+    - YYCategories (~> 1.0.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - TradeBook_Base (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YYCategories
 
 EXTERNAL SOURCES:
   TradeBook_Base:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TradeBook_Base: b2b114d3c30eb0b7d99cb834e186da4e0cf6575c
+  TradeBook_Base: ab0dcc874eff28f10cac34455bb298309686dc6b
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
 PODFILE CHECKSUM: 4f4427288f31aefc6556c31a93df8d13904670a9
 
