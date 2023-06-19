@@ -1,0 +1,22 @@
+{
+  "name": "TradeBook_Base",
+  "version": "0.1.0",
+  "summary": "A short description of TradeBook_Base.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaoerlong/TradeBook_Base",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaoerlong": "xiao.kim@tradego8.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaoerlong/TradeBook_Base.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TradeBook_Base/Classes/**/*"
+}

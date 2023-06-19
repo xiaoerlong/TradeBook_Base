@@ -1,0 +1,16 @@
+PODS:
+  - TradeBook_Base (0.1.0)
+
+DEPENDENCIES:
+  - TradeBook_Base (from `../`)
+
+EXTERNAL SOURCES:
+  TradeBook_Base:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TradeBook_Base: b2b114d3c30eb0b7d99cb834e186da4e0cf6575c
+
+PODFILE CHECKSUM: 4f4427288f31aefc6556c31a93df8d13904670a9
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module Pods_TradeBook_Base_Tests {
+  umbrella header "Pods-TradeBook_Base_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
