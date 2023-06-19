@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TradeBook_Base_Example' do
+  pod 'TradeBook_Base', :path => '../'
+
+  target 'TradeBook_Base_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
