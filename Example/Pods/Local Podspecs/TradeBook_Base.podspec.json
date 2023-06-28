@@ -1,6 +1,6 @@
 {
   "name": "TradeBook_Base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of TradeBook_Base.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaoerlong/TradeBook_Base",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiaoerlong/TradeBook_Base.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,6 +22,9 @@
   "dependencies": {
     "YYCategories": [
       "~> 1.0.4"
+    ],
+    "Masonry": [
+      "~> 1.1.0"
     ]
   }
 }
