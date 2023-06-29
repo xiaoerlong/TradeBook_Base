@@ -1,11 +1,7 @@
 PODS:
   - Masonry (1.1.0)
-  - TradeBook_Base (0.0.2):
+  - TradeBook_Base (0.0.3):
     - Masonry (~> 1.1.0)
-    - YYCategories (~> 1.0.4)
-  - YYCategories (1.0.4):
-    - YYCategories/no-arc (= 1.0.4)
-  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - TradeBook_Base (from `../`)
@@ -13,7 +9,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Masonry
-    - YYCategories
 
 EXTERNAL SOURCES:
   TradeBook_Base:
@@ -21,8 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TradeBook_Base: ec127240cfeadd3a877f641f3295f4145f317916
-  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  TradeBook_Base: 20832903051474bd0c20f7b6c36829e210940b5e
 
 PODFILE CHECKSUM: 4f4427288f31aefc6556c31a93df8d13904670a9
 

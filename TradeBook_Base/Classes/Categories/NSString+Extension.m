@@ -8,7 +8,6 @@
 
 #import "NSString+Extension.h"
 #import <CommonCrypto/CommonDigest.h>
-#import <YYCategories/YYCategories.h>
 
 @implementation NSString (Extension)
 
@@ -352,13 +351,6 @@
     return [emailTest evaluateWithObject:self];
 }
 
-//替换中文输入法\U2006的系统bug(两个字母间像有个空格一样)，编码后%E2%80%86
-- (NSString *)resetTextFieldInputText{
-    NSString *encodeString = [self stringByURLEncode];
-    encodeString = [encodeString stringByReplacingOccurrencesOfString:@"%E2%80%86" withString:@""];
-    NSString *string = [encodeString stringByURLDecode];
-    return string;
-}
 
 - (NSArray *)tg_componentsSeparatedFromString:(NSString *)fromString toString:(NSString *)toString {
     if (!fromString || !toString || fromString.length == 0 || toString.length == 0) {

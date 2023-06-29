@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TradeBook_Base'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of TradeBook_Base.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'YYCategories', '~> 1.0.4'
    s.dependency 'Masonry', '~> 1.1.0'
 end

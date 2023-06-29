@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import YYCategories
 
 extension UIImage {
     //输入color返回image
@@ -72,5 +71,18 @@ extension UIImage {
         }
         let newImg = self.byCrop(to: CGRect(origin: origin, size: targetSize))
         return newImg
+    }
+    
+    private func byCrop(to rect: CGRect) -> UIImage? {
+        let cropRect = CGRect(x: rect.origin.x * scale, y: rect.origin.y * scale, width: rect.size.width * scale, height: rect.size.height * scale)
+        
+        if cropRect.size.width <= 0 || cropRect.size.height <= 0 {
+            return nil
+        }
+        guard let imageRef = cgImage?.cropping(to: cropRect) else {
+            return nil
+        }
+        let image = UIImage(cgImage: imageRef, scale: scale, orientation: self.imageOrientation)
+        return image
     }
 }
